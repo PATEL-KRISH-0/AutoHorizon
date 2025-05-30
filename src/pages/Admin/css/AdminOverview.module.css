@@ -1,0 +1,645 @@
+.overview-header {
+    background: var(--card-bg);
+    border-radius: 2rem;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    border: 1px solid var(--card-border);
+}
+
+.overview-header h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    background: var(--gradient-1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.overview-header p {
+    color: var(--text-200);
+    line-height: 1.6;
+}
+
+/* Quick Stats Grid */
+.quick-stats {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.stat-card {
+    background: var(--card-bg);
+    border-radius: 1.5rem;
+    padding: 1.5rem;
+    border: 1px solid var(--card-border);
+    transition: transform 0.3s ease;
+}
+
+.stat-card:hover {
+    transform: translateY(-5px);
+}
+
+.stat-icon {
+    width: 48px;
+    height: 48px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    color: white;
+    margin-bottom: 1rem;
+}
+
+.stat-icon.revenue {
+    background: var(--primary-100);
+}
+
+.stat-icon.users {
+    background: var(--success);
+}
+
+.stat-icon.orders {
+    background: var(--warning);
+}
+
+.stat-icon.views {
+    background: var(--accent-100);
+}
+
+.stat-info h3 {
+    color: var(--text-200);
+    font-size: 0.875rem;
+    margin-bottom: 0.25rem;
+}
+
+.stat-info .value {
+    color: var(--text-100);
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.stat-trend {
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+    font-size: 0.875rem;
+}
+
+.trend-up {
+    color: var(--success);
+}
+
+.trend-down {
+    color: var(--danger);
+}
+
+/* Charts Grid */
+.charts-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.chart-card {
+    background: var(--card-bg);
+    border-radius: 1.5rem;
+    padding: 1.5rem;
+    border: 1px solid var(--card-border);
+}
+
+.chart-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+
+.chart-header h2 {
+    color: var(--text-100);
+    font-size: 1.25rem;
+}
+
+.chart-filters {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.chart-filter {
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    background: var(--bg-200);
+    color: var(--text-200);
+    border: 1px solid var(--card-border);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.chart-filter.active {
+    background: var(--primary-100);
+    color: white;
+    border-color: var(--primary-100);
+}
+
+.chart-container {
+    position: relative;
+    height: 300px;
+}
+
+/* Performance Metrics */
+.metrics-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.metric-card {
+    background: var(--card-bg);
+    border-radius: 1.5rem;
+    padding: 1.5rem;
+    border: 1px solid var(--card-border);
+    text-align: center;
+}
+
+.metric-value {
+    font-size: 2rem;
+    font-weight: bold;
+    color: var(--text-100);
+    margin: 1rem 0;
+}
+
+.metric-label {
+    color: var(--text-200);
+    font-size: 0.875rem;
+}
+
+.metric-chart {
+    height: 100px;
+    margin: 1rem 0;
+}
+
+/* Top Sellers Section */
+.top-sellers-section {
+    background: var(--card-bg);
+    border-radius: 1.5rem;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+    border: 1px solid var(--card-border);
+}
+
+.top-sellers-section h2 {
+    color: var(--text-100);
+    font-size: 1.25rem;
+    margin-bottom: 1.5rem;
+}
+
+.top-sellers-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+}
+
+.seller-card {
+    background: var(--bg-200);
+    border-radius: 1rem;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.seller-card img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 0.5rem;
+}
+
+.seller-info {
+    flex: 1;
+}
+
+.seller-info h3 {
+    color: var(--text-100);
+    font-size: 1rem;
+    margin-bottom: 0.25rem;
+}
+
+.seller-info p {
+    color: var(--text-200);
+    font-size: 0.875rem;
+    margin-bottom: 0.5rem;
+}
+
+.seller-progress {
+    height: 4px;
+    background: var(--bg-300);
+    border-radius: 2px;
+    overflow: hidden;
+}
+
+.progress-bar {
+    height: 100%;
+    background: var(--primary-100);
+    border-radius: 2px;
+}
+
+/* Regional Sales Section */
+.regional-sales-section {
+    background: var(--card-bg);
+    border-radius: 1.5rem;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+    border: 1px solid var(--card-border);
+}
+
+.regional-sales-section h2 {
+    color: var(--text-100);
+    font-size: 1.25rem;
+    margin-bottom: 1.5rem;
+}
+
+.map-container {
+    position: relative;
+}
+
+.map-placeholder {
+    height: 300px;
+    background: var(--bg-200);
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: var(--text-200);
+}
+
+.map-placeholder i {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color: var(--primary-100);
+}
+
+.region-stats {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.region-stat {
+    background: var(--bg-200);
+    padding: 1rem;
+    border-radius: 0.5rem;
+    text-align: center;
+}
+
+.region-stat h4 {
+    color: var(--text-100);
+    margin-bottom: 0.5rem;
+}
+
+.region-stat p {
+    color: var(--text-200);
+    font-size: 0.875rem;
+}
+
+/* Support Tickets Section */
+.support-section {
+    background: var(--card-bg);
+    border-radius: 1.5rem;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+    border: 1px solid var(--card-border);
+}
+
+.support-section h2 {
+    color: var(--text-100);
+    font-size: 1.25rem;
+    margin-bottom: 1.5rem;
+}
+
+.tickets-list {
+    display: grid;
+    gap: 1rem;
+}
+
+.ticket-item {
+    background: var(--bg-200);
+    border-radius: 1rem;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.ticket-priority {
+    padding: 0.25rem 0.75rem;
+    border-radius: 1rem;
+    font-size: 0.75rem;
+    font-weight: 500;
+}
+
+.ticket-priority.high {
+    background: rgba(239, 68, 68, 0.1);
+    color: #ef4444;
+}
+
+.ticket-priority.medium {
+    background: rgba(245, 158, 11, 0.1);
+    color: #f59e0b;
+}
+
+.ticket-priority.low {
+    background: rgba(34, 197, 94, 0.1);
+    color: #22c55e;
+}
+
+.ticket-content {
+    flex: 1;
+}
+
+.ticket-content h4 {
+    color: var(--text-100);
+    margin-bottom: 0.25rem;
+}
+
+.ticket-content p {
+    color: var(--text-200);
+    font-size: 0.875rem;
+}
+
+.ticket-meta {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 0.5rem;
+}
+
+.ticket-time {
+    color: var(--text-200);
+    font-size: 0.75rem;
+}
+
+.btn-resolve {
+    padding: 0.25rem 0.75rem;
+    border-radius: 0.5rem;
+    background: var(--primary-100);
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 0.75rem;
+    transition: all 0.3s ease;
+}
+
+.btn-resolve:hover {
+    transform: translateY(-2px);
+}
+
+.btn-resolve:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+
+
+/* Recent Activity */
+.activity-section {
+    background: var(--card-bg);
+    border-radius: 1.5rem;
+    padding: 1.5rem;
+    border: 1px solid var(--card-border);
+    margin-bottom: 2rem;
+}
+
+.activity-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+
+.activity-header h2 {
+    color: var(--text-100);
+    font-size: 1.25rem;
+}
+
+.activity-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.activity-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    padding: 1rem;
+    background: var(--bg-200);
+    border-radius: 1rem;
+}
+
+.activity-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    flex-shrink: 0;
+}
+
+.activity-icon.order {
+    background: var(--primary-100);
+}
+
+.activity-icon.user {
+    background: var(--success);
+}
+
+.activity-icon.review {
+    background: var(--warning);
+}
+
+.activity-content {
+    flex: 1;
+}
+
+.activity-content h4 {
+    color: var(--text-100);
+    margin-bottom: 0.25rem;
+}
+
+.activity-content p {
+    color: var(--text-200);
+    font-size: 0.875rem;
+}
+
+.activity-time {
+    color: var(--text-200);
+    font-size: 0.75rem;
+}
+
+
+/* Maintenance Section */
+.maintenance-section {
+    background: var(--card-bg);
+    border-radius: 1.5rem;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+    border: 1px solid var(--card-border);
+}
+
+.maintenance-section h2 {
+    color: var(--text-100);
+    font-size: 1.25rem;
+    margin-bottom: 1.5rem;
+}
+
+.maintenance-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1 fr);
+    gap: 1.5rem;
+}
+
+.maintenance-card {
+    background: var(--bg-200);
+    border-radius: 1rem;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.maintenance-icon {
+    width: 48px;
+    height: 48px;
+    border-radius: 12px;
+    background: var(--primary-100);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.maintenance-info {
+    flex: 1;
+}
+
+.maintenance-info h3 {
+    color: var(--text-100);
+    margin-bottom: 0.25rem;
+}
+
+.maintenance-info p {
+    color: var(--text-200);
+    font-size: 0.875rem;
+    margin-bottom: 0.25rem;
+}
+
+.maintenance-time {
+    color: var(--text-200);
+    font-size: 0.75rem;
+}
+
+.maintenance-status {
+    padding: 0.25rem 0.75rem;
+    border-radius: 1rem;
+    font-size: 0.75rem;
+    font-weight: 500;
+}
+
+.maintenance-status.pending {
+    background: rgba(245, 158, 11, 0.1);
+    color: #f59e0b;
+}
+
+.maintenance-status.scheduled {
+    background: rgba(34, 197, 94, 0.1);
+    color: #22c55e;
+}
+
+/* Responsive Design */
+@media (max-width: 1200px) {
+    .quick-stats {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .charts-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .metrics-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .top-sellers-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .maintenance-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 992px) {
+    .metrics-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .top-sellers-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .region-stats {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 768px) {
+    .overview-main {
+        padding: 1rem;
+    }
+
+    .quick-stats {
+        grid-template-columns: 1fr;
+    }
+
+    .chart-filters {
+        display: none;
+    }
+
+    .ticket-item {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .ticket-meta {
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 1rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .overview-header h1 {
+        font-size: 1.75rem;
+    }
+
+    .seller-card {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .seller-card img {
+        width: 80px;
+        height: 80px;
+    }
+}

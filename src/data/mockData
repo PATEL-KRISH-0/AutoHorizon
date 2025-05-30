@@ -1,0 +1,83 @@
+export const popularCars = [
+  {
+    id: 1,
+    brand: "Tesla",
+    model: "Model S Plaid",
+    image: "https://images.unsplash.com/photo-1617788138017-80ad40651399?auto=format&fit=crop&w=600&q=80",
+    acceleration: 2.1,
+    topSpeed: 200,
+    type: "Electric",
+    price: 129990
+  },
+  {
+    id: 2,
+    brand: "Porsche",
+    model: "Taycan Turbo S",
+    image: "https://images.unsplash.com/photo-1614200187524-dc4b892acf16?auto=format&fit=crop&w=600&q=80",
+    acceleration: 2.6,
+    topSpeed: 161,
+    type: "Electric",
+    price: 185000
+  },
+  {
+    id: 3,
+    brand: "Audi",
+    model: "RS e-tron GT",
+    image: "https://images.unsplash.com/photo-1616422285623-13ff0162193c?auto=format&fit=crop&w=600&q=80",
+    acceleration: 3.1,
+    topSpeed: 155,
+    type: "Electric",
+    price: 139900
+  }
+];
+
+export const featuredCars = [
+  {
+    id: 1,
+    brand: "Tesla",
+    model: "Model 3 Performance",
+    image: "https://images.unsplash.com/photo-1560958089-b8a1929cea89?auto=format&fit=crop&w=600&q=80",
+    price: 53990
+  },
+  {
+    id: 2,
+    brand: "Audi",
+    model: "Q4 e-tron",
+    image: "https://images.unsplash.com/photo-1617099366449-dc628a0732ba?auto=format&fit=crop&w=600&q=80",
+    price: 49900
+  },
+  {
+    id: 3,
+    brand: "Porsche",
+    model: "Taycan 4S",
+    image: "https://images.unsplash.com/photo-1619767886558-efdc259b6e09?auto=format&fit=crop&w=600&q=80",
+    price: 103800
+  }
+];
+
+export const states = [
+  {
+    id: 1,
+    name: "Delhi",
+    capital: "New Delhi",
+    population: "19 Million",
+    description: "The national capital and a major cultural hub of India",
+    iconPath: "M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"
+  },
+  {
+    id: 2,
+    name: "Maharashtra",
+    capital: "Mumbai",
+    population: "23 Million",
+    description: "India's financial capital and entertainment hub",
+    iconPath: "M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"
+  },
+  {
+    id: 3,
+    name: "Karnataka",
+    capital: "Bengaluru",
+    population: "12 Million",
+    description: "India's technology capital and startup hub",
+    iconPath: "M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"
+  }
+];

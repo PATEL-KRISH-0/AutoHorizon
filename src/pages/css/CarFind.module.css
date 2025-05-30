@@ -1,0 +1,444 @@
+        /* Browse page specific styles */
+        .browse-container {
+            display: grid;
+            grid-template-columns: 300px 1fr;
+            gap: 2rem;
+            padding: 2rem;
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        /* Filters Section */
+        .filters {
+            background: var(--sell-bg);
+            padding: 2rem;
+            border-radius: 1rem;
+            position: sticky;
+            top: 2rem;
+            height: fit-content;
+            backdrop-filter: blur(10px);
+            border: 1px solid var(--card-border);
+        }
+
+        .filters h2 {
+            margin-bottom: 1.5rem;
+            color: var(--text-100);
+        }
+
+        .filter-group {
+            margin-bottom: 1.5rem;
+        }
+
+        .filter-group label {
+            display: block;
+            margin-bottom: 0.5rem;
+            color: var(--text-100);
+            font-weight: 500;
+        }
+
+        .filter-group input[type="number"] {
+            width: 100%;
+            padding: 0.5rem;
+            border: 1px solid var(--card-border);
+            border-radius: 0.5rem;
+            background: var(--sell-feature-bg);
+            color: var(--text-100);
+        }
+
+        .price-inputs {
+            display: flex;
+            gap: 0.5rem;
+            align-items: center;
+        }
+
+        .price-inputs input {
+            width: 100%;
+        }
+
+        /* Grid layouts for filter cards */
+        .city-grid,
+        .brand-grid,
+        .body-type-grid,
+        .fuel-type-grid,
+        .condition-grid,
+        .transmission-grid,
+        .mileage-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 0.5rem;
+        }
+
+        .brand-grid {
+            max-height: 200px;
+            overflow: hidden;
+            transition: max-height 0.3s ease;
+        }
+
+        .brand-grid.expanded {
+            max-height: 600px;
+        }
+
+        .show-more {
+            width: 100%;
+            padding: 0.5rem;
+            margin-top: 0.5rem;
+            background: transparent;
+            border: 1px dashed var(--card-border);
+            color: var(--text-200);
+            border-radius: 0.5rem;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .show-more:hover {
+            background: var(--sell-feature-bg);
+            color: var(--text-100);
+        }
+
+        /* Base styles for all filter cards */
+        .city-card,
+        .brand-card,
+        .body-type-card,
+        .fuel-type-card,
+        .condition-card,
+        .transmission-card,
+        .mileage-card {
+            background: var(--sell-feature-bg);
+            border: 1px solid var(--card-border);
+            border-radius: 0.5rem;
+            padding: 1rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 0.5rem;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            height: 80px;
+            justify-content: center;
+        }
+
+        .city-card:hover,
+        .brand-card:hover,
+        .body-type-card:hover,
+        .fuel-type-card:hover,
+        .condition-card:hover,
+        .transmission-card:hover,
+        .mileage-card:hover {
+            background: var(--sell-feature-hover);
+            transform: translateY(-2px);
+        }
+
+        .city-card.selected,
+        .brand-card.selected,
+        .body-type-card.selected,
+        .fuel-type-card.selected,
+        .condition-card.selected,
+        .transmission-card.selected,
+        .mileage-card.selected {
+            background: var(--primary-100);
+            color: white;
+        }
+
+        /* Brand cards specific styles */
+        .brand-card {
+            background: var(--bg-100);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 1rem;
+            height: 60px;
+        }
+
+        .brand-card img {
+            width: auto;
+            height: 30px;
+            object-fit: contain;
+            transition: all 0.3s ease;
+        }
+
+        [data-theme="light"] .brand-card img {
+            filter: brightness(0);
+        }
+
+        [data-theme="dark"] .brand-card img {
+            filter: brightness(0) invert(1);
+        }
+
+        .brand-card:hover img,
+        .brand-card.selected img {
+            filter: none !important;
+            transform: scale(1.1);
+        }
+
+        /* Icon styles for filter cards */
+        .city-card i,
+        .body-type-card i,
+        .fuel-type-card i,
+        .condition-card i,
+        .transmission-card i,
+        .mileage-card i {
+            font-size: 1.5rem;
+            color: var(--text-200);
+        }
+
+        .city-card.selected i,
+        .body-type-card.selected i,
+        .fuel-type-card.selected i,
+        .condition-card.selected i,
+        .transmission-card.selected i,
+        .mileage-card.selected i,
+        .city-card.selected span,
+        .body-type-card.selected span,
+        .fuel-type-card.selected span,
+        .condition-card.selected span,
+        .transmission-card.selected span,
+        .mileage-card.selected span {
+            color: white;
+        }
+
+        .apply-filters {
+            width: 100%;
+            padding: 0.75rem;
+            background: var(--primary-100);
+            color: white;
+            border: none;
+            border-radius: 0.5rem;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            margin-top: 2rem;
+        }
+
+        .apply-filters:hover {
+            background: var(--primary-200);
+        }
+
+        /* Car Listings Section */
+        .car-listings {
+            padding: 1rem;
+        }
+
+        .section-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 2rem;
+        }
+
+        .section-header h2 {
+            color: var(--text-100);
+            font-size: 1.5rem;
+        }
+
+        .view-all {
+            color: var(--primary-100);
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        .car-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-bottom: 4rem;
+        }
+
+        /* Car Card Styles */
+        .car-card {
+            background: var(--sell-bg);
+            border-radius: 1rem;
+            padding: 2rem;
+            position: relative;
+            backdrop-filter: blur(10px);
+            border: 1px solid var(--card-border);
+            transition: transform 0.3s;
+        }
+
+        .car-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .car-status {
+            position: absolute;
+            top: 1rem;
+            right: 1rem;
+            padding: 0.25rem 0.75rem;
+            border-radius: 1rem;
+            font-size: 0.875rem;
+            font-weight: 500;
+        }
+
+        .car-status.new {
+            background: var(--primary-100);
+            color: white;
+        }
+
+        .car-status.used {
+            background: var(--accent-100);
+            color: white;
+        }
+
+        .car-title {
+            color: var(--text-100);
+            font-size: 1.25rem;
+            margin-bottom: 0.25rem;
+        }
+
+        .car-subtitle {
+            color: var(--text-200);
+            font-size: 0.875rem;
+            display: block;
+            margin-bottom: 1rem;
+        }
+
+        .car-img {
+            width: 100%;
+            height: auto;
+            margin-bottom: 1.5rem;
+        }
+
+        .car-details {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 1rem;
+            padding: 0.75rem;
+            background: var(--sell-stats-bg);
+            border-radius: 0.5rem;
+        }
+
+        .car-detail-group {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            color: var(--text-200);
+            font-size: 0.875rem;
+        }
+
+        .car-specs {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 0.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .spec-item {
+            display: flex;
+            align-items: center;
+            gap: 0.25rem;
+            color: var(--text-200);
+            font-size: 0.875rem;
+            background: var(--sell-stats-bg);
+            padding: 0.5rem;
+            border-radius: 0.5rem;
+        }
+
+        .car-features {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .feature {
+            background: var(--sell-feature-bg);
+            padding: 0.25rem 0.75rem;
+            border-radius: 1rem;
+            font-size: 0.75rem;
+            color: var(--text-200);
+            display: flex;
+            align-items: center;
+            gap: 0.25rem;
+        }
+
+        .feature i {
+            font-size: 1rem;
+        }
+
+        .car-price {
+            color: var(--text-100);
+            font-size: 1.5rem;
+            font-weight: bold;
+            margin-bottom: 1rem;
+        }
+
+        .car-button {
+            position: absolute;
+            bottom: 1rem;
+            right: 1rem;
+            background: var(--primary-100);
+            color: white;
+            border: none;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .car-button:hover {
+            background: var(--primary-200);
+        }
+
+        /* Responsive Design */
+        @media (max-width: 1024px) {
+            .browse-container {
+                grid-template-columns: 250px 1fr;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .browse-container {
+                grid-template-columns: 1fr;
+            }
+
+            .filters {
+                position: static;
+                margin-bottom: 2rem;
+            }
+
+            .car-grid {
+                grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            }
+
+            .city-grid,
+            .brand-grid,
+            .body-type-grid,
+            .fuel-type-grid,
+            .condition-grid,
+            .transmission-grid,
+            .mileage-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+
+
+
+
+
+
+        
+.popular__button {
+    width: 45px;
+    height: 45px;
+    background-color: var(--primary-100);
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--bg-100);
+    font-size: 1.5rem;
+    position: absolute;
+    right: 2rem;
+    bottom: 2rem;
+    transition: background-color 0.3s;
+}
+
+.popular__button:hover {
+    background-color: var(--primary-200);
+}

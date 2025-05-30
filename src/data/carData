@@ -1,0 +1,80 @@
+export const carData = {
+  name: "Tesla Model S Plaid",
+  price: 129990,
+  badge: "New",
+  images: [
+    "https://images.unsplash.com/photo-1617788138017-80ad40651399?auto=format&fit=crop&q=80&w=1200",
+    "https://images.unsplash.com/photo-1617791160505-6f00504e3519?auto=format&fit=crop&q=80&w=1200",
+    "https://images.unsplash.com/photo-1617791160588-241658c0f566?auto=format&fit=crop&q=80&w=1200",
+    "https://images.unsplash.com/photo-1617791160536-598cf32026fb?auto=format&fit=crop&q=80&w=1200"
+  ],
+  keyFeatures: [
+    { icon: "battery", text: "396 Mile Range" },
+    { icon: "zap", text: "1,020 Horsepower" },
+    { icon: "timer", text: "1.99s 0-60 mph" },
+    { icon: "gauge", text: "200 mph Top Speed" }
+  ],
+  specifications: [
+    {
+      title: "Performance",
+      items: [
+        "0-60 mph: 1.99 seconds",
+        "1/4 mile: 9.23 seconds",
+        "Top speed: 200 mph",
+        "Peak power: 1,020 hp"
+      ]
+    },
+    {
+      title: "Range & Battery",
+      items: [
+        "396 mile range (EPA)",
+        "100 kWh battery",
+        "Supercharging: 200 miles in 15 min",
+        "Home charging: 44 miles/hour"
+      ]
+    }
+  ],
+  features: [
+    {
+      icon: "shield",
+      title: "Advanced Safety",
+      description: "360° cameras, collision avoidance, and emergency braking"
+    },
+    {
+      icon: "smartphone",
+      title: "Smart Connect",
+      description: "Wireless integration with your devices and OTA updates"
+    },
+    {
+      icon: "map",
+      title: "Autopilot",
+      description: "Advanced driver assistance with full self-driving capability"
+    }
+  ],
+  warranty: {
+    title: "Comprehensive Vehicle Warranty",
+    coverage: [
+      "4 year/50,000 mile limited vehicle warranty",
+      "8 year/150,000 mile powertrain warranty",
+      "8 year/150,000 mile battery warranty",
+      "Unlimited mile corrosion warranty"
+    ]
+  },
+  relatedProducts: [
+    {
+      name: "Tesla Model 3",
+      price: 46990,
+      image: "https://images.unsplash.com/photo-1560958089-b8a1929cea89?auto=format&fit=crop&q=80&w=800"
+    },
+    {
+      name: "Tesla Model X",
+      price: 89990,
+      image: "https://images.unsplash.com/photo-1566274360936-69fae8dc1d95?auto=format&fit=crop&q=80&w=800"
+    },
+    {
+      name: "Tesla Model Y",
+      price: 65990,
+      image: "https://images.unsplash.com/photo-1619317554478-fd6d0e5c3aef?auto=format&fit=crop&q=80&w=800"
+    }
+  ]
+};

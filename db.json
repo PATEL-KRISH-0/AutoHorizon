@@ -1,0 +1,433 @@
+{
+  "find": [
+    {
+      "status": "New",
+      "brand": "Porsche",
+      "model": "Turbo S",
+      "image": "https://raw.githubusercontent.com/bedimcode/responsive-car-website/main/assets/img/popular1.png",
+      "details": {
+        "acceleration": "3.7 sec",
+        "topSpeed": "356 Km/h",
+        "fuelType": "Electric"
+      },
+      "specs": {
+        "year": 2024,
+        "location": "Mumbai",
+        "transmission": "Auto",
+        "mileage": "10K km",
+        "seats": 4,
+        "driveType": "AWD"
+      },
+      "features": [
+        "360° Camera",
+        "Lane Assist",
+        "Auto Park",
+        "Bluetooth",
+        "Sunroof",
+        "Apple CarPlay"
+      ],
+      "price": "$175,900"
+    }
+  ],
+  "car": {
+    "product": {
+      "name": "Porsche Mission E",
+      "price": "$175,900",
+      "badge": "New Launch",
+      "images": {
+        "main": "https://raw.githubusercontent.com/bedimcode/responsive-car-website/main/assets/img/home.png",
+        "thumbnails": [
+          {
+            "src": "https://raw.githubusercontent.com/bedimcode/responsive-car-website/main/assets/img/home.png",
+            "alt": "Front View"
+          },
+          {
+            "src": "https://raw.githubusercontent.com/bedimcode/responsive-car-website/main/assets/img/featured1.png",
+            "alt": "Side View"
+          },
+          {
+            "src": "https://raw.githubusercontent.com/bedimcode/responsive-car-website/main/assets/img/featured2.png",
+            "alt": "Interior"
+          },
+          {
+            "src": "https://raw.githubusercontent.com/bedimcode/responsive-car-website/main/assets/img/featured3.png",
+            "alt": "Rear View"
+          }
+        ]
+      },
+      "key_features": [
+        {
+          "icon": "ri-flashlight-line",
+          "label": "Electric"
+        },
+        {
+          "icon": "ri-speed-line",
+          "label": "0-60 mph: 2.5s"
+        },
+        {
+          "icon": "ri-battery-2-charge-line",
+          "label": "Range: 310 mi"
+        }
+      ],
+      "tabs": {
+        "specifications": {
+          "Performance": [
+            "Max Power: 750 hp",
+            "Top Speed: 162 mph",
+            "Acceleration: 2.5s (0-60)"
+          ],
+          "Battery & Charging": [
+            "Battery: 95 kWh",
+            "Fast Charging: 15-80% in 22.5 min",
+            "Range: Up to 310 miles"
+          ],
+          "Dimensions": [
+            "Length: 195.4 in",
+            "Width: 77.4 in",
+            "Height: 54.3 in"
+          ]
+        },
+        "features": [
+          {
+            "icon": "ri-dashboard-3-line",
+            "title": "Advanced Driver Display",
+            "description": "16.8-inch curved display with customizable interface"
+          },
+          {
+            "icon": "ri-computer-line",
+            "title": "Porsche Connect",
+            "description": "Integrated navigation and entertainment system"
+          },
+          {
+            "icon": "ri-parking-line",
+            "title": "Parking Assistant",
+            "description": "Automatic parking with 360° camera view"
+          }
+        ],
+        "warranty": {
+          "title": "Standard Warranty Coverage",
+          "details": [
+            "4-year/50,000-mile basic warranty",
+            "8-year/100,000-mile battery warranty",
+            "24/7 Roadside Assistance"
+          ]
+        }
+      }
+    },
+    "related_products": [
+      {
+        "name": "Tesla Model S",
+        "price": "Starting at $89,990",
+        "image": "https://raw.githubusercontent.com/bedimcode/responsive-car-website/main/assets/img/featured1.png"
+      },
+      {
+        "name": "Audi e-tron GT",
+        "price": "Starting at $102,400",
+        "image": "https://raw.githubusercontent.com/bedimcode/responsive-car-website/main/assets/img/featured2.png"
+      },
+      {
+        "name": "Lucid Air",
+        "price": "Starting at $87,400",
+        "image": "https://raw.githubusercontent.com/bedimcode/responsive-car-website/main/assets/img/featured3.png"
+      }
+    ]
+  },
+  "carData": {
+    "name": "Porsche Mission E",
+    "auctionStatus": "Live Auction",
+    "mainImage": "https://raw.githubusercontent.com/bedimcode/responsive-car-website/main/assets/img/home.png",
+    "thumbnails": [
+      "https://raw.githubusercontent.com/bedimcode/responsive-car-website/main/assets/img/home.png",
+      "https://raw.githubusercontent.com/bedimcode/responsive-car-website/main/assets/img/featured1.png",
+      "https://raw.githubusercontent.com/bedimcode/responsive-car-website/main/assets/img/featured2.png",
+      "https://raw.githubusercontent.com/bedimcode/responsive-car-website/main/assets/img/featured3.png"
+    ],
+    "specs": [
+      {
+        "icon": "ri-flashlight-line",
+        "detail": "Electric"
+      },
+      {
+        "icon": "ri-speed-line",
+        "detail": "0-60 mph: 2.5s"
+      },
+      {
+        "icon": "ri-battery-2-charge-line",
+        "detail": "Range: 310 mi"
+      }
+    ],
+    "description": "The Porsche Mission E is a groundbreaking all-electric sports car that combines stunning performance with sustainable mobility. This limited edition model features exclusive design elements and cutting-edge technology.",
+    "features": [
+      "All-Electric Powertrain",
+      "Advanced Driver Display",
+      "Premium Sound System",
+      "Autonomous Capabilities"
+    ],
+    "seller": {
+      "name": "Luxury Motors",
+      "avatar": "https://raw.githubusercontent.com/bedimcode/responsive-car-website/main/assets/img/logo1.png",
+      "rating": 4.8
+    },
+    "bidHistory": [
+      {
+        "avatar": "https://raw.githubusercontent.com/bedimcode/responsive-car-website/main/assets/img/logo2.png",
+        "name": "John D.",
+        "time": "2 minutes ago",
+        "amount": 175900
+      },
+      {
+        "avatar": "https://raw.githubusercontent.com/bedimcode/responsive-car-website/main/assets/img/logo3.png",
+        "name": "Sarah M.",
+        "time": "5 minutes ago",
+        "amount": 175500
+      },
+      {
+        "avatar": "https://raw.githubusercontent.com/bedimcode/responsive-car-website/main/assets/img/logo4.png",
+        "name": "Mike R.",
+        "time": "10 minutes ago",
+        "amount": 175000
+      }
+    ],
+    "currentBid": {
+      "amount": 175900,
+      "totalBids": 23
+    }
+  },
+  "popular-cars": [
+    {
+      "id": 1,
+      "name": "Porsche",
+      "model": "Turbo S",
+      "image": "https://raw.githubusercontent.com/bedimcode/responsive-car-website/main/assets/img/popular1.png",
+      "acceleration": "3.7 sec",
+      "topSpeed": "356 Km/h",
+      "type": "Electric",
+      "price": "$175,900"
+    },
+    {
+      "id": 2,
+      "name": "Tesla",
+      "model": "Model S",
+      "image": "https://raw.githubusercontent.com/bedimcode/responsive-car-website/main/assets/img/popular1.png",
+      "acceleration": "3.1 sec",
+      "topSpeed": "322 Km/h",
+      "type": "Electric",
+      "price": "$89,900"
+    }
+  ],
+  "featured-cars": [
+    {
+      "id": 1,
+      "name": "Tesla",
+      "model": "Model X",
+      "image": "https://raw.githubusercontent.com/bedimcode/responsive-car-website/main/assets/img/popular1.png",
+      "price": "$98,900"
+    },
+    {
+      "id": 2,
+      "name": "Audi",
+      "model": "E-tron",
+      "image": "https://raw.githubusercontent.com/bedimcode/responsive-car-website/main/assets/img/popular1.png",
+      "price": "$65,900"
+    }
+  ],
+  "user": {
+    "stats": {
+      "totalUsers": 1234,
+      "activeUsers": 1180,
+      "bannedUsers": 54,
+      "newUsers": 28
+    },
+    "users": [
+      {
+        "id": "USER123",
+        "name": "John Doe",
+        "email": "john.doe@example.com",
+        "status": "Active",
+        "joinedDate": "Jan 15, 2024",
+        "lastLogin": "2 hours ago",
+        "avatar": "https://raw.githubusercontent.com/bedimcode/responsive-car-website/main/assets/img/logo1.png"
+      },
+      {
+        "id": "USER124",
+        "name": "Jane Smith",
+        "email": "jane.smith@example.com",
+        "status": "Banned",
+        "joinedDate": "Jan 14, 2024",
+        "lastLogin": "1 day ago",
+        "avatar": "https://raw.githubusercontent.com/bedimcode/responsive-car-website/main/assets/img/logo2.png"
+      },
+      {
+        "id": "USER125",
+        "name": "Michael Johnson",
+        "email": "michael.johnson@example.com",
+        "status": "Active",
+        "joinedDate": "Feb 10, 2024",
+        "lastLogin": "3 days ago",
+        "avatar": "https://raw.githubusercontent.com/bedimcode/responsive-car-website/main/assets/img/logo3.png"
+      },
+      {
+        "id": "USER126",
+        "name": "Emily Davis",
+        "email": "emily.davis@example.com",
+        "status": "Pending",
+        "joinedDate": "Mar 1, 2024",
+        "lastLogin": "5 hours ago",
+        "avatar": "https://raw.githubusercontent.com/bedimcode/responsive-car-website/main/assets/img/logo4.png"
+      },
+      {
+        "id": "USER127",
+        "name": "Chris Brown",
+        "email": "chris.brown@example.com",
+        "status": "Active",
+        "joinedDate": "Feb 5, 2024",
+        "lastLogin": "Yesterday",
+        "avatar": "https://raw.githubusercontent.com/bedimcode/responsive-car-website/main/assets/img/logo5.png"
+      }
+    ],
+    "pagination": {
+      "currentPage": 1,
+      "totalPages": 10
+    }
+  },
+  "admin": {
+    "quickStats": [
+      {
+        "id": 1,
+        "title": "Total Revenue",
+        "value": "$854,200",
+        "trend": "up",
+        "trendValue": "18.2%",
+        "icon": "ri-money-dollar-circle-line"
+      },
+      {
+        "id": 2,
+        "title": "Total Users",
+        "value": "2,461",
+        "trend": "up",
+        "trendValue": "12.5%",
+        "icon": "ri-user-3-line"
+      },
+      {
+        "id": 3,
+        "title": "Total Orders",
+        "value": "385",
+        "trend": "down",
+        "trendValue": "5.8%",
+        "icon": "ri-shopping-cart-line"
+      },
+      {
+        "id": 4,
+        "title": "Page Views",
+        "value": "48,592",
+        "trend": "up",
+        "trendValue": "22.4%",
+        "icon": "ri-eye-line"
+      }
+    ],
+    "recentActivity": [
+      {
+        "id": 1,
+        "type": "order",
+        "title": "New Order #12345",
+        "description": "Tesla Model 3 - $45,900",
+        "time": "2 minutes ago",
+        "icon": "ri-shopping-cart-line"
+      },
+      {
+        "id": 2,
+        "type": "user",
+        "title": "New User Registration",
+        "description": "John Doe joined the platform",
+        "time": "15 minutes ago",
+        "icon": "ri-user-add-line"
+      },
+      {
+        "id": 3,
+        "type": "review",
+        "title": "New Review",
+        "description": "5-star review for Porsche Mission E",
+        "time": "1 hour ago",
+        "icon": "ri-star-line"
+      }
+    ],
+    "topSellingCars": [
+      {
+        "id": 1,
+        "name": "Tesla Model 3",
+        "unitsSold": 142,
+        "image": "https://raw.githubusercontent.com/bedimcode/responsive-car-website/main/assets/img/featured1.png",
+        "progress": "85%"
+      },
+      {
+        "id": 2,
+        "name": "Porsche Taycan",
+        "unitsSold": 98,
+        "image": "https://raw.githubusercontent.com/bedimcode/responsive-car-website/main/assets/img/featured2.png",
+        "progress": "65%"
+      },
+      {
+        "id": 3,
+        "name": "Audi e-tron",
+        "unitsSold": 76,
+        "image": "https://raw.githubusercontent.com/bedimcode/responsive-car-website/main/assets/img/featured3.png",
+        "progress": "45%"
+      }
+    ],
+    "regionalSales": [
+      {
+        "region": "North America",
+        "percentage": "45%"
+      },
+      {
+        "region": "Europe",
+        "percentage": "35%"
+      },
+      {
+        "region": "Asia Pacific",
+        "percentage": "20%"
+      }
+    ],
+    "supportTickets": [
+      {
+        "id": 1,
+        "priority": "High",
+        "title": "Charging Station Issue",
+        "description": "Customer reporting problems with home charging installation",
+        "time": "2 hours ago"
+      },
+      {
+        "id": 2,
+        "priority": "Medium",
+        "title": "Software Update Failed",
+        "description": "Vehicle software update stuck at 80%",
+        "time": "4 hours ago"
+      },
+      {
+        "id": 3,
+        "priority": "Low",
+        "title": "Feature Request",
+        "description": "Customer suggesting new navigation features",
+        "time": "1 day ago"
+      }
+    ],
+    "maintenanceSchedule": [
+      {
+        "id": 1,
+        "title": "System Updates",
+        "description": "Database optimization scheduled",
+        "time": "Tomorrow, 2:00 AM",
+        "status": "Pending",
+        "icon": "ri-tools-line"
+      },
+      {
+        "id": 2,
+        "title": "Backup Routine",
+        "description": "Full system backup",
+        "time": "Next Week",
+        "status": "Scheduled",
+        "icon": "ri-database-2-line"
+      }
+    ]
+  }
+}
